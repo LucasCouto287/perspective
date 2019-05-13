@@ -1,0 +1,36 @@
+<div class="container -column">
+  <div class="perspective">
+    <div class="card -small">
+      <a class="card--title" href="#">Card with perspective</a>
+      <p class="card--text">
+        hover to see the effect
+      </p>
+    </div>
+  </div>
+  <div>
+    <div class="card -small">
+      <a class="card--title" href="#">Card with no perspective</a>
+      <p class="card--text">
+        hover to see the difference
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+/***************
+
+.perspective {
+  perspective: 500px; // try playing with this value
+}
+
+.card {
+  transition: transform 1s ease; 
+  &:hover {
+    transform: rotateY(-60deg);
+  }
+}
+
+
+*************/
